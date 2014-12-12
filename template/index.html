@@ -10,6 +10,7 @@
       // initialize vvvv.js; this loads the rest of the .js files
       // first argument is the path to the vvvv_js folder
       // second argument is either 'run', to load only run components, 'view' to load only vvvviewer, or 'full' to load both
+      require('nw.gui').Window.get().showDevTools();
       VVVV.init("..", 'full', function() {
         console.log("VVVV.js successfully initialized.")
       });

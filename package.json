@@ -1,0 +1,12 @@
+{
+  "name": "vvvv.js",
+  "main": "template/index.html",
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  },
+  "scripts": {
+    "start": "nodewebkit"
+  }
+}
